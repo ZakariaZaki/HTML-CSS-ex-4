@@ -9,7 +9,6 @@ body {
   width: 100%;
 }
 
-
 .first-block {
   background-color: #00caf3;
   color: white;
@@ -119,7 +118,7 @@ header p {
 
 img {
   float: right;
-margin: auto;
+
 }
 
 .third-block h3, p {
