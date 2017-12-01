@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .blue {
   background-color: #26C3F5;
   color: #FFFFFF;
@@ -148,12 +152,18 @@ footer {
   padding: 3rem 0;
 }
 
+.get-grav {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .feature {
   flex: 1 25%;
   padding: 3rem;
 }
 
-.btn {
+.button {
   background-color: #26C3F5;
   color: #FFFFFF;
   font-size: 2rem;
@@ -161,12 +171,6 @@ footer {
   height: 60px;
   border-radius: 30px;
   border: 2px solid #FFFFFF;
-}
-
-.get-it {
-  font-size: 3rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 @media screen and (max-width: 960px) {
